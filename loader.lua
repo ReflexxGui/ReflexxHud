@@ -230,7 +230,7 @@ coroutine.resume(coroutine.create(SCRIPT_RCCT68_FAKESCRIPT))
 function SCRIPT_VJWK69_FAKESCRIPT() -- LoadButton.Loader 
 	local script = Instance.new('LocalScript')
 	script.Parent = LoadButton
-	local gamelist = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/Pasted0002/Cat-Hub/master/gamelist.json"))
+	local gamelist = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/ReflexxGui/ReflexxHud/main/gamelist.json"))
 	local supported
 	local lit
 	local tpid
