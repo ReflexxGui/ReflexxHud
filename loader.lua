@@ -244,7 +244,7 @@ function SCRIPT_VJWK69_FAKESCRIPT() -- LoadButton.Loader
 	if checkgame() then
 		script.Parent.Parent.gamename.Text = lit.gname
 		script.Parent.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet(string.format("https://raw.githubusercontent.com/Pasted0002/Cat-Hub/master/scripts/%s", lit.scriptname)))()
+			loadstring(game:HttpGet(string.format("https://raw.githubusercontent.com/ReflexxGui/ReflexxHud/scripts/BigPaintball.lua", lit.scriptname)))()
 			script.Parent.Parent.Parent:Destroy()
 		end)
 	else
